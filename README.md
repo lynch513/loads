@@ -4,7 +4,25 @@ A Clojure library designed to ... calculate loads on city power electric station
 
 ## Usage
 
-FIXME
+At now moment you can local install and use this library. In near future I will add this library to clojars.org ...
+
+```bash
+git clone https://github.com/lynch513/loads.git
+lein deps
+lein install
+```
+
+After local installation you can include and use this library: 
+
+```clj
+;; project.clj
+  ...
+  :dependencies [...
+                 [org.clojars.lynch/loads   "0.1.6-SNAPSHOT"]]
+  ...
+```
+
+See examples in my project: (https://github.com/lynch513/loads-web)[https://github.com/lynch513/loads-web]
 
 ## License
 
