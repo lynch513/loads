@@ -6,7 +6,7 @@ A Clojure library designed to ... calculate loads on city power electric station
 
 First install leiningen util:
 
-[https://leiningen.org/](https://leiningen.org/)
+[https://leiningen.org/](https://leiningen.org)
 
 At now moment you can local install and use this library. In near future I will add this library to clojars.org ...
 
@@ -30,7 +30,7 @@ See examples in my project: [https://github.com/lynch513/loads-web](https://gith
 
 ## License
 
-Copyright © 2019 [github.com/lynch513](github.com/lynch513)
+Copyright © 2019 [https://github.com/lynch513](https://github.com/lynch513)
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
