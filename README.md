@@ -4,6 +4,10 @@ A Clojure library designed to ... calculate loads on city power electric station
 
 ## Usage
 
+First install leiningen util:
+
+[https://leiningen.org/](https://leiningen.org/)
+
 At now moment you can local install and use this library. In near future I will add this library to clojars.org ...
 
 ```bash
@@ -22,7 +26,7 @@ After local installation you can include and use this library:
   ...
 ```
 
-See examples in my project: (https://github.com/lynch513/loads-web)[https://github.com/lynch513/loads-web]
+See examples in my project: [https://github.com/lynch513/loads-web](https://github.com/lynch513/loads-web)
 
 ## License
 
