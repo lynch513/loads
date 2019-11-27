@@ -25,11 +25,14 @@
 
 
 (defn recalc-load
-  [value]
-  (let [abs-value (Math/abs value)]
-    (cond
-      (>= abs-value 100) (get-power-2-5 (range-value value min-range max-3-range))
-      (>= abs-value 50)  (get-power-2-5 (range-value value min-range max-2-range))
-      (>= abs-value 15)  (get-power-2-5 (range-value value min-range max-1-range))
-      (> abs-value 5)    (get-power-2-5 (range-value value 0 min-range))
-      :else          value)))
+  ([value]
+   (let [abs-value (Math/abs value)]
+     (cond
+       (>= abs-value 100) (get-power-2-5 (range-value value min-range max-3-range))
+       (>= abs-value 50)  (get-power-2-5 (range-value value min-range max-2-range))
+       (>= abs-value 15)  (get-power-2-5 (range-value value min-range max-1-range))
+       (> abs-value 5)    (get-power-2-5 (range-value value 0 min-range))
+       :else          value)))
+  ([value max-range]
+   (get-power-2-5 (range-value value min-range max-range))))
+
